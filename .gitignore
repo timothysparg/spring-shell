@@ -1,6 +1,7 @@
 .classpath
 .project
 .idea
+.github.token
 *.iml
 *.log
 target
