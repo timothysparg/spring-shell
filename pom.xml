@@ -68,4 +68,10 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+		<connection>scm:git:git@github.com:timothysparg/spring-shell.git</connection>
+		<url>scm:git@github.com:timothysparg/spring-shell.git</url>
+		<developerConnection>scm:git:git@github.com:timothysparg/spring-shell.git</developerConnection>
+	</scm>
+
 </project>
