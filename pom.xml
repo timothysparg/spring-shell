@@ -68,6 +68,8 @@
 
 	<scm>
 		<connection>scm:git:git@github.com:timothysparg/spring-shell.git</connection>
+		<developerConnection>scm:git:git@github.com:timothysparg/spring-shell.git</developerConnection>
+		<url>scm:git:git@github.com:timothysparg/spring-shell.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	
