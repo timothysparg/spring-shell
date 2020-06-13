@@ -2,8 +2,10 @@
 .project
 .idea
 .github.token
+.settings
 release.properties
 pom.xml.*
 *.iml
 *.log
 target
+.mvn
