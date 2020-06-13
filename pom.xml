@@ -42,12 +42,10 @@
 				<groupId>cy.github</groupId>
 				<artifactId>github-release-plugin</artifactId>
 				<version>1.4.0</version>
-
 				<configuration>
 					<tagName>${project.artifactId}-${project.version}</tagName>
 					<preRelease>true</preRelease>
 				</configuration>
-
 				<executions>
 					<execution>
 						<goals>
