@@ -41,7 +41,7 @@
 			<plugin>
 				<groupId>cy.github</groupId>
 				<artifactId>github-release-plugin</artifactId>
-				<version>${plugin.version}</version>
+				<version>1.4.0</version>
 
 				<configuration>
 					<tagName>${project.artifactId}-${project.version}</tagName>
