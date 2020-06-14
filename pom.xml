@@ -36,23 +36,6 @@
 					<tagNameFormat>@{project.version}</tagNameFormat>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>cy.github</groupId>
-				<artifactId>github-release-plugin</artifactId>
-				<version>0.5.1</version>
-				<configuration>
-					<tagName>${project.artifactId}-${project.version}</tagName>
-					<preRelease>true</preRelease>
-				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>gh-upload</goal>
-						</goals>
-						<phase>deploy</phase>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 
@@ -70,22 +53,12 @@
 		<url>scm:git:git@github.com:timothysparg/spring-shell.git</url>
 		<tag>HEAD</tag>
 	</scm>
-	
-	<pluginRepositories>
-		<pluginRepository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>bintray-cy6ergn0m-maven</id>
-			<name>bintray-plugins</name>
-			<url>http://dl.bintray.com/cy6ergn0m/maven</url>
-		</pluginRepository>
-	</pluginRepositories>
 
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<url>http://fake.localhost</url>
+			<name>GitHub timothysparg Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/timothysparg/spring-shell</url>
 		</repository>
 	</distributionManagement>
 </project>
