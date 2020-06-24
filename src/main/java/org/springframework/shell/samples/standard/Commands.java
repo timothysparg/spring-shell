@@ -91,7 +91,7 @@ public class Commands {
 class FunnyValuesProvider extends ValueProviderSupport {
 
 	private final static String[] VALUES = new String[] {
-		"hello world",
+		"hello world2",
 		"I'm quoting \"The Daily Mail\"",
 		"10 \\ 3 = 3"
 	};
